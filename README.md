@@ -12,9 +12,7 @@ oscap-docker container-cve our-rhel7-container
 
 yum install scap-security-guide
 
-# oscap-docker container our-rhel7-container oval eval \
-               --results oval-results.xml --report report.html \
-               /usr/share/xml/scap/ssg/content/ssg-rhel7-oval.xml
+#oscap-docker container our-rhel7-container oval eval --results oval-results.xml --report report.html /usr/share/xml/scap/ssg/content/ssg-rhel7-oval.xml
 			   
 #oscap-docker image registry.access.redhat.com/rhel7 oval eval --results oval-results.xml --report report.html /usr/share/xml/scap/ssg/content/ssg-rhel7-oval.xml 
 			   
