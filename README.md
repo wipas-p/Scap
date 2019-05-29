@@ -1,8 +1,8 @@
 # Scap
 
 ##Install oscap-docker
-yum install openscap-utils
 
+yum install openscap-utils
 
 docker run --name "our-rhel7-container" -ti registry.access.redhat.com/rhel7 /bin/bash
 
